@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/v1/orders")
 public class OrderController {
     private final CreateOrderUseCase createOrderUseCase;
     @Autowired
